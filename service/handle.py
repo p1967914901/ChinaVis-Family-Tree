@@ -32,4 +32,4 @@ if __name__ == '__main__':
     } for i in range(len(data))]
     with open('./data/data_by_tsne.json', 'w', encoding='utf8') as file:
         json.dump(final, file)
-    print(coordinates)
+    # print(coordinates)
